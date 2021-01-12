@@ -20,6 +20,13 @@ const projectData = [
     github: 'https://github.com/novakoda/cv-project',
     demo: 'https://novakoda.github.io/cv-project/'
   },
+  {
+    id: 3,
+    name: 'To Do List',
+    source: `/projects/todo.gif`,
+    github: 'https://github.com/novakoda/todo',
+    demo: 'https://novakoda.github.io/todo/'
+  },
 ];
 
 export default projectData;
