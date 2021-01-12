@@ -13,6 +13,13 @@ const projectData = [
     github: 'https://github.com/novakoda/restaurant',
     demo: 'https://novakoda.github.io/restaurant/'
   },
+  {
+    id: 2,
+    name: 'Resume Builder',
+    source: `/projects/resume.gif`,
+    github: 'https://github.com/novakoda/cv-project',
+    demo: 'https://novakoda.github.io/cv-project/'
+  },
 ];
 
 export default projectData;
