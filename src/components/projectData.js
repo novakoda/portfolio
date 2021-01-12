@@ -27,6 +27,13 @@ const projectData = [
     github: 'https://github.com/novakoda/todo',
     demo: 'https://novakoda.github.io/todo/'
   },
+  {
+    id: 4,
+    name: 'Tic Tac Toe',
+    source: `/projects/tictactoe.gif`,
+    github: 'https://github.com/novakoda/tic-tac-toe-js',
+    demo: 'https://novakoda.github.io/tic-tac-toe-js/'
+  },
 ];
 
 export default projectData;
