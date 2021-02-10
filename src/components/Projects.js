@@ -8,7 +8,10 @@ export default function Projects() {
   projectData.map(p => {
     projects.push(
       <div key={p.id} className="card d-inline-block m-2 p-2 border rounded">
-        <img src={p.pic} className="card-img-top w-100" alt={p.name}></img>
+        <img src={p.pic} className="card-img-top w-100" alt={p.name}
+            onMouseOver={e => ( e.currentTarget.src = p.gif )}
+            onMouseOut={e => ( e.currentTarget.src = p.pic )}
+          ></img>
         <div className="card-body p-3">
           <h5 className="mx-auto text-center">{p.name}</h5>
           <div className="project-btns mt-2 d-flex row justify-content-between gap-2">

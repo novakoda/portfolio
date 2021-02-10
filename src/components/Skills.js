@@ -1,10 +1,14 @@
 import React from 'react';
 import { frontendImages, backendImages, otherImages } from './skillsIndex.js';
+import '../styles/Skills.scss';
 
 function getSkills(images, skills) {
   images.map( image => {
     skills.push(
-      <img className="mx-1 mb-2 p-1 border border-dark rounded" src={image.source} alt={image.name} key={image.id} style={{width: 50, height: 50}}/>
+      <img className="mx-1 mb-2 p-1 border border-dark rounded skill"
+        src={image.source} alt={image.name}
+        key={image.id}
+        />
     );
   });
 }
