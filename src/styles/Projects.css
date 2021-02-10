@@ -1,0 +1,19 @@
+
+.project-container {
+  width: 350px;
+  background: rgb(253,253,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(251,251,255,1) 100%);
+  color: #252526;
+}
+
+.carousel-caption {
+  background: rgb(211,210,215);
+  background: linear-gradient(0deg, rgba(211,210,215,1) 0%, rgba(250,246,255,1) 100%);
+  color: #252526;
+}
+
+.projects-grid-container {
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 350px 350px 350px;
+}
