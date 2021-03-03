@@ -26,23 +26,23 @@ export default function Skills() {
     <div>
       <h2>Skills</h2>
       <div className="row">
-        <div className="col-sm">
-          <h3>front-end</h3>
-          <div>
+        <div className="col-sm-12 col-lg-5 col-md-4">
+          <h3>Front End</h3>
+          <div className='d-flex flex-wrap flex-lg-nowrap'>
             { frontendSkills }
           </div>
         </div>
 
-        <div className="col-sm">
-          <h3>back-end</h3>
-          <div>
+        <div className="col-sm-12 col-lg-2 col-md-4">
+          <h3 className="text-lg-left text-md-center">Back End</h3>
+          <div className="d-flex justify-content-md-center">
             { backendSkills }
           </div>
         </div>
 
-        <div className="col-sm">
-          <h3>misc</h3>
-          <div>
+        <div className="col-sm-12 col-lg-5 col-md-4">
+          <h3 className="text-md-right">Miscellaneous</h3>
+          <div className="d-flex justify-content-md-end flex-wrap flex-lg-nowrap">
             { otherSkills }
           </div>
         </div>
