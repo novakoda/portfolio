@@ -6,7 +6,7 @@ export default function About() {
     <div>
       <div className="row mb-5 mt-4">
         <div className="col-lg-4 col-md-6 d-flex justify-content-center">
-          <img src="/pic.jpg" alt="James Williams" className="profile-pic float-md-left rounded pl-md-4 mx-auto align-self-sm-center"></img>
+          <img src="pic.jpg" alt="James Williams" className="profile-pic float-md-left rounded pl-md-4 mx-auto align-self-sm-center"></img>
         </div>
         <div className="align-self-center col-md-6 col-lg-8 pl-lg-3">
           <h1 style={{fontSize: 70}} className="text-center text-sm-left">James Williams</h1>

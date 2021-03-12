@@ -6,7 +6,7 @@ function gatherImages(skillNames, images, type) {
   skillNames.forEach((skillName, i) => {
     images.push({
       id: i + 1,
-      source: `/skills/${type}/${skillName}.svg`,
+      source: `skills/${type}/${skillName}.svg`,
       name: skillName
     });
   });
