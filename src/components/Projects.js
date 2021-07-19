@@ -28,8 +28,8 @@ export default function Projects() {
                 </div>
               }
             <div className="project-btns mt-2 row justify-content-between gap-2">
-              <a href={p.demo} target="_blank" className="project-demo col-xl col-md-12 col-sm btn btn-primary align-middle btn-lg">Live Demo</a>
-              <a href={p.github} target="_blank" className="project-code col-xl col-md-12 col-sm btn btn-outline-secondary btn-lg">Source Code</a>
+              <a href={p.demo} target="_blank" className="project-demo col-xl col-md-12 col-sm btn btn-primary align-middle btn-lg">Demo</a>
+              <a href={p.github} target="_blank" className="project-code col-xl col-md-12 col-sm btn btn-outline-secondary btn-lg">Code</a>
             </div>
           </div>
         </div>
