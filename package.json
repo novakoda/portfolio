@@ -1,5 +1,6 @@
 {
   "homepage": "https://novakoda.github.io/portfolio",
+  "_homepageDev_": ".",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
