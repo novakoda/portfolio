@@ -1,5 +1,5 @@
 const frontend = ['html5','css3','javascript','sass','bootstrap','react'];
-const backend = ['ruby','rails','postgresql'];
+const backend = ['ruby','rails','postgresql','python'];
 const other = ['git','github','heroku','webpack','photoshop','illustrator'];
 
 function gatherImages(skillNames, images, type) {
